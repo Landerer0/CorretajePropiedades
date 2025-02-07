@@ -36,5 +36,6 @@ Thumbs.db
 
 # Angular CLI
 .angular/
-!angular/
 
+# Incluir la carpeta angular (pero NO .angular/)
+!angular/
