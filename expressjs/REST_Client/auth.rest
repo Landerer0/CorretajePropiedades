@@ -1,0 +1,25 @@
+
+### Register
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+	"name": "Lucas",
+  "password": "admin",
+  "phone": "56912345678",
+  "email": "mail@mail.com"
+}
+
+### Login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "mail@mail.com",
+  "password": "admin"
+}
+
+### PROTECTED ROUTE
+GET http://localhost:3000/api/auth/protected
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mzg4NTc5MDEsImV4cCI6MTczODg1ODgwMX0.IRZvWfqct0eYpjboZ4QHmYS3MKObZb_qUpmzdjOYsf0
+
