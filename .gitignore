@@ -34,8 +34,3 @@ Thumbs.db
 *.pid
 *.seed
 
-# Angular CLI
-.angular/
-
-# Incluir la carpeta angular (pero NO .angular/)
-!angular/
